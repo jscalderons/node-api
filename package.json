@@ -1,0 +1,16 @@
+{
+  "name": "restserver",
+  "version": "1.0.0",
+  "description": "REST server",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "nodemon server/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jhonathan Calderon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
